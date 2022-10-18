@@ -38,7 +38,7 @@ ROS package for dual modal perception (rgbt)
    ```
 
 ## 运行
- - 启动双模态检测算法(结果集融合)（检测结果图像可由`rqt_image_view /result`查看）
+ - 启动双模态检测算法（检测结果图像可由`rqt_image_view /result`查看） 结果集融合需要两个weight，特征集融合需要一个weight
    ```
    python3 demo_dual_modal.py
    
